@@ -1,7 +1,3 @@
-/* =====================================================
-   MOBILE NAVIGATION
-===================================================== */
-
 const menuButton = document.getElementById("menu-button");
 
 const navLinks = document.getElementById("nav-links");
@@ -14,10 +10,6 @@ menuButton.addEventListener("click", function () {
 });
 
 
-
-/* =====================================================
-   CLOSE MOBILE MENU AFTER CLICKING
-===================================================== */
 
 const navigationItems =
     document.querySelectorAll(".nav-links a");
@@ -33,11 +25,6 @@ navigationItems.forEach(function (item) {
 
 });
 
-
-
-/* =====================================================
-   ACTIVE NAVIGATION LINK
-===================================================== */
 
 const sections =
     document.querySelectorAll("section[id]");
